@@ -1,0 +1,6 @@
+pwd
+echo "Hello"
+ls -la
+/bin/ls -la /tmp
+id
+env
