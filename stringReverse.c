@@ -23,11 +23,11 @@ void stringReverse(char *str)
 }
 
 /**
- * intToStr - converts int to a string
+ * _itoa - converts int to a string
  * @cmdNum: number to convert
  * Return: the converted integer
  */
-char *intToStr(size_t cmdNum)
+char *_itoa(size_t cmdNum)
 {
 	char *str = malloc(sizeof(char) * (32 + 1));
 	int x = 0;

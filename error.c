@@ -10,7 +10,7 @@
 int error_not_found(char **arvs, char **tokArray, size_t cmdNum)
 {
 	char *error_str;
-	char *cmdNum_str = intToStr(cmdNum);
+	char *cmdNum_str = _itoa(cmdNum);
 	int size = (strlen(arvs[0]) + (2 * strlen(": ")) +
 			digCounter(cmdNum) + strlen(tokArray[0]) +
 			strlen(": not found\n") + 1);
