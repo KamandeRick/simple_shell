@@ -43,9 +43,9 @@ void prompt(void);
 void handleSignalFunc(int signal);
 ssize_t lineGet(char **input,
 				size_t *mallocBytesAlloc, int status);
-char *makeTokArray(char *input, char *delimiter);
+char **makeTokArray(char *input, char *delimiter);
 int forkFunc(char *command, char **tokArray);
-char *_which(char *filename);
 int printEnvFunc(void);
 char *envFunc(const char *name);
+char *_which(char *filename);
 #endif
